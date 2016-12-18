@@ -4,6 +4,7 @@ A config file system for Mozilla Firefox
 kitsune can:
 - Extract the CSS from a Stylish theme
 - Inject a CSS file into an existing Stylish theme.
+
 (Note: kitsune can NOT make Stylish themes from CSS files. To do that, see [userstyles.org](https://userstyles.org/help).)
 ## Installation
 `npm i -g firefox-kitsune`
@@ -20,11 +21,11 @@ After installing the [Stylish extension](https://addons.mozilla.org/firefox/down
 `~/.config/kitsune/config.yml`
 ```yaml
 tasks:
-  - "readStyles"
-  - "styles"
+	- "readStyles"
+	- "styles"
 profile: "gkr0wqkl.default"
 stylish:
-  titles:
-    "4chan - Midnight Caek": "/home/ebrock/midnight-caek.css"
+	titles:
+		"4chan - Midnight Caek": "/home/ebrock/midnight-caek.css"
 ```
 Once you have the configuration set up, simply run `kitsune` and reload pages/restart Firefox.

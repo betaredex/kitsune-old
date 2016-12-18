@@ -1,6 +1,6 @@
 {
 	"name": "firefox-kitsune",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "A config file system for Mozilla Firefox",
 	"main": "index.coffee",
 	"repository": {
