@@ -8,6 +8,7 @@ kitsune can:
 (Note: kitsune can NOT make Stylish themes from CSS files. To do that, see [userstyles.org](https://userstyles.org/help).)
 ## Installation
 `npm i -g firefox-kitsune`
+
 That's it!
 ## Usage and Configuration
 So far, kitsune only supports the use of external stylesheets using the Stylish API:
@@ -17,6 +18,7 @@ After installing the [Stylish extension](https://addons.mozilla.org/firefox/down
 - `profile:` The folder name of your Firefox profile (found in ~/.mozilla/firefox.)
 - `stylish:` Where stylish settings will go.
 - `stylish/styles:` Contains the `name: path` pairs for the stylesheets. The name signifies which Stylish theme the stylesheet will be applied to, or in the case of `readStyles`, the path signifies the path to which the style will be saved.
+
 #### Example configuration ####
 `~/.config/kitsune/config.yml`
 ```yaml
