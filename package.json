@@ -1,23 +1,26 @@
 {
-	"name": "firefox-kitsune",
-	"version": "1.0.3",
-	"description": "A config file system for Mozilla Firefox",
-	"main": "index.coffee",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/betaredex/kitsune.git"
-	},
-	"bin": {
-		"kitsune": "./bin/index.js"
-	},
-	"author": "Elliot Brock <beta.redex@gmail.com>",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/betaredex/kitsune/issues"
-	},
-	"homepage": "https://github.com/betaredex/kitsune#readme",
-	"dependencies": {
-		"js-yaml": "^3.7.0",
-		"sqlite3": "^3.1.8"
-	}
+  "name": "firefox-kitsune",
+  "version": "1.0.3",
+  "description": "A config file system for Mozilla Firefox",
+  "main": "index.coffee",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/betaredex/kitsune.git"
+  },
+  "bin": {
+    "kitsune": "./bin/index.js"
+  },
+  "author": "Elliot Brock <beta.redex@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/betaredex/kitsune/issues"
+  },
+  "homepage": "https://github.com/betaredex/kitsune#readme",
+  "dependencies": {
+    "firefox-profile": "^0.4.5",
+    "js-yaml": "^3.7.0",
+    "selenium-webdriver": "^3.0.1",
+    "sqlite3": "^3.1.8",
+    "wd": "^1.1.1"
+  }
 }
